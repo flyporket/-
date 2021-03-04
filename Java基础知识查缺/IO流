@@ -1,0 +1,23 @@
+Java输入输出：
+常规输出：
+System.out.print("A,");
+
+格式化输出：
+System.out.println();
+
+指定格式：
+double d = 3.1415926;
+System.out.printf("%.2f\n", d); // 显示两位小数3.14
+System.out.printf("%.4f\n", d); // 显示4位小数3.1416
+Java格式化功能占位符：
+%d	格式化输出整数
+%x	格式化输出十六进制整数
+%f	格式化输出浮点数
+%e	格式化输出科学计数法表示的浮点数
+%s	格式化字符串
+
+
+Java输入：
+首先import导入java.util.Scanner
+Scanner scanner = new Scanner(System.in);//创建Scanner读取输入行
+String name = scanner.nextLine();//读取一行输入并创建字符串
